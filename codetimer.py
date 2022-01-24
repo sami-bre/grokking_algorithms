@@ -12,4 +12,4 @@ class Timer:
     def __exit__(self, exc_type, exc_value, exc_trace):
         self.end_time = time()
         print("==== TIMER FINISHED ====")
-        print(f"The code took {self.end_time - self.start_time} seconds to execute.")
+        print("The code took %.2f seconds to execute."%(self.end_time-self.start_time))
