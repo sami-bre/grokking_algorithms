@@ -1,3 +1,5 @@
+#unmemoized fibonnachi
+
 from codetimer import Timer
 def fib(n):
     if n==0:
