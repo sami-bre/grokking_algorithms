@@ -2,6 +2,7 @@
 
 # THIS IS A DIRECTED GRAPH
 from collections import deque
+from codetimer import Timer
 
 
 graph = dict()
@@ -38,4 +39,6 @@ def BFS(you):
 # change the input to 'claire' and the BFS should return 'jhonny'. because jhonny
 # closer to bob than peggy is. On the other hand, giving 'anuj' to the BFS returns
 # None because we have a directed graph.
-print(BFS("bob"))
+
+with Timer():
+    print(BFS("bob"))
