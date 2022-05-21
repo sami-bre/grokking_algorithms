@@ -1,4 +1,4 @@
-"""Dijkstra's algorithm is used to find a the single sourse shortest path between to nodes
+"""Dijkstra's algorithm is used to find the single source shortest path between to nodes
 on a DAG (Directed acyclic graph). It is not used if the graph contains negative weights.
 for graphs with negative weights, use the Bellman-ford algorithm. for unweighted graphs, use
 BFS (breadth first search)"""
