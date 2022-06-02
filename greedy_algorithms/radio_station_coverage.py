@@ -1,3 +1,6 @@
+""" a set covering problem dealt with with a greedy algorithm.
+consult the book 'grokking algorithms' for more ... """
+
 stations = {
     "kone" : ['id', 'nv', 'ut', 'az'],
     "ktwo" : ['wa', 'id', 'mt'],
