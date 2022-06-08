@@ -14,4 +14,5 @@ def divideFarmland(land):
     else:
         return divideFarmland((longerSide % shorterSide, shorterSide))
 
+
 print(divideFarmland((1680, 640)))

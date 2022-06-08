@@ -33,7 +33,7 @@ experimental changes to it. The comments marked with (!) have sugges-
 tions for small changes you can make. On your own, you can also try to fig-
 ure out how to do the following"""
 
-text_two = """You can’t run this program from your integrated development environ-
+text_two = """You can't run this program from your integrated development environ-
 ment (IDE) or editor because it uses the bext module. Therefore, it must be
 run from the Command Prompt or Terminal in order to display correctly.
 You can find more information about the bext module"""
