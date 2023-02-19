@@ -1,4 +1,4 @@
-"""using dynamic programming, this code calculates the length of acommen subsequence of two strings.
+"""using dynamic programming, this code calculates the length of a common subsequence of two strings.
 for more on what a subsequence is and how the algorithm works, refer to the book: grokking algorithms."""
 
 def common_subsequence_length(str_one, str_two):
